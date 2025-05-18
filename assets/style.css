@@ -1,0 +1,61 @@
+/* Thème léger inspiré du terminal vert & lilas ouaisfi */
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #101010;
+  color: #c8fcb7;
+  margin: 0;
+  padding: 2rem;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(200, 252, 183, 0.1);
+}
+
+h1, h2, h3 {
+  color: #e0c3fc;
+}
+
+a {
+  color: #7fffd4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: #202020;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(127, 255, 212, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  border-color: #7fffd4;
+  box-shadow: 0 0 15px rgba(127, 255, 212, 0.4);
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #777;
+}
